@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Objek Wisata</title>
+    <!-- CSS only -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.13.0.custom/jquery-ui.js"></script>
+    <script src="jquery-ui-1.13.0.custom/jquery-ui.css"></script>
+    <script src="https://code.jquery.com/ui/1.13.0-rc.3/jquery-ui.min.js" integrity="sha256-R6eRO29lbCyPGfninb/kjIXeRjMOqY3VWPVk6gMhREk=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+</head>
+<body>
+  
+  <!-- navbar -->
+    <nav class="navbar maju navbar-expand-lg navbar-dark fixed-top bg-primary" id="navbar">
+        <div class="container">
+            <div class="judul">
+              <i class="fab fa-battle-net"></i>
+          <a class="navbar-brand" href="#">objec wisata kintamani</a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#objek">Objek Wisata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sarana">Saraa Akomodasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#wawasan">Wawasan</a>
+              </li>
+
+    
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- tutup navbar -->
+
+
+    <!-- caraousel -->
+    <section class="beranda mb-5" id="beranda">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="gambar">
+            <img src="./gambar/gunung batur 01.jpg" class="d-block w-100" alt="...">
+        </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>objec wisata kintamani</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit nihil ex?</p>
+              <button type="button" class="btn btn-primary">Jelajahi</button>
+              <button type="button" class="btn btn-success" style="color: black;">Video</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="gambar">
+            <img src="./gambar/gambar01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h2>objec wisata kintamani</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit nihil ex?</p>
+                <button type="button" class="btn btn-primary">Jelajahi</button>
+              <button type="button" class="btn btn-success" style="color: black;">Video</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="gambar">
+            <img src="./gambar/gambar02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h2>objec wisata kintamani</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit nihil ex?</p>
+                <button type="button" class="btn btn-primary">Jelajahi</button>
+              <button type="button" class="btn btn-success" style="color: black;">Video</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- tutup caraousel -->
+
+    <!-- objek wisata -->
+    <section class="section bg-primary" id="objek">
+        <div class="container">
+        <div class="judul text-center mb-3 mt-5">
+            <h2>Objek Wisata</h2>
+        </div>
+
+        <div class="row atas">
+            <div class="col-6 kiri">
+                <div class="title">
+                    <h2>objec wisata kintamani</h2>
+                </div>
+                <p>tempat wisata kintamani adalah sebuah tempat wisata yang sangat banyak orang berpergian kesana dan club-club motor juga sering melakukan kegiatan ridding atau sanmory, di objek wisata kintamani sangat banyak ada tempat ngopi yang sangat mewah sekali . Taman wisata ini terletak di , Kecamatan kintamani , Kabupaten bangli , provinsi Bali</p>
+                <button type="button" class="btn btn-success mb-2">Selanjutnya</button>
+                <h4>Follow Me On Website</h4>
+                <button type="button" class="btn btn-danger">Facebook</button>
+                <button type="button" class="btn btn-success">instagram</button>
+                <button type="button" class="btn btn-warning">Youtube</button>
+            </div>
+            <div class="col-6 kanan">
+                <div class="gambar2">
+                    <img src="./gambar/gunung batur 01.jpg"> 
+                    <p class="text-center mt-1" style="font-size: 0.8em;">Gambar gunung batur</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <hr>
+
+        <div class="row bawah">
+            <div class="col-6 kiri">
+                <div class="gambar2">
+                    <img src="./gambar/gunung batur02.jpg">
+                    <p class="text-center mt-1" style="font-size: 0.8em;">Gambar gunung batur</p>
+                </div>
+            </div>
+
+            <div class="col-6 kanan">
+                <div class="title">
+                    <h2>Gunung Batur</h2>
+                </div>
+                <p>di Objek wisata gunung berapi Kintamani atau Gunung Batur salah satu gunung berapi aktif. Karena keindahan pemandangan kaldera serta pemandangan danau, membuat gunung Batur Bali salah satu tujuan wisata paling populer di Bali.
+
+                  Udara sejuk daerah pegunungan, serta adanya kolam air panas alami yang lokasinya berdekatan, menambah minat wisatawan untuk berlibur ke objek wisata gunung berapi Kintamani Bali.</p>
+                <button type="button" class="btn btn-success mb-2">Selanjutnya</button>
+                <h4>Follow Me On Website</h4>
+                <button type="button" class="btn btn-danger">Facebook</button>
+                <button type="button" class="btn btn-success">instagram</button>
+                <button type="button" class="btn btn-warning">Youtube</button>
+            </div>
+            <hr>
+
+            <nav aria-label="...">
+                <ul class="pagination" style="display: flex; justify-content: center;">
+                  <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- akhir objek wisata -->
+
+
+    <!-- sarana dan akomodasi -->
+    <section class="sarana ni" id="sarana">
+        <div class="judul-sarana text-center mt-5 mb-5">
+            <h2>Sarana & Akomodasi</h2>
+            <p class="text-center" style="font-size:0.8em;">the best in objek wisata kintamani</p>
+        </div>
+    <div class="container">
+    <div class="row">
+
+        <div class="col-4">
+            <div class="card style="width: 18rem;">
+                <img src="./gambar/image01.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title text-center">kedai kopi montana</h4>
+                  <div class="star">
+                  <ul>
+                      <li><i class="fas fa-star" style="color: gold;"></i></li>
+                      <li><i class="fas fa-star" style="color: gold;"></i></li>
+                      <li><i class="fas fa-star" style="color: gold;"></i></li>
+                      <li><i class="fas fa-star" style="color: gold;"></i></li>
+                      <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+                  </ul>
+                </div>
+                  <p class="card-text">Pemandangan Gunung Batur bisa terlihat jelas dari kafe ini. Area outdoor-nya populer sebagai tempat berfoto dengan latar belakang Gunung Batur. Bagian balkonnya yang dihiasi rerumputan estetik semakin menambah keindahan kafe ini. Desainnya yang modern, dengan bagian dinding dari kaca yang besar membuat cahaya alami bisa masuk dengan mudah bahkan ke area indoor kafe. Membuat baik area indoor atau pun outdoor kafe ini sama-sama cantik.</p>
+                  <p>Start From Rp.10.000 - Rp.30.000</p>
+                </div>
+
+                <div class="love">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+        </div>
+
+        
+        <div class="col-4 ">
+            <div class="card style="width: 18rem;">
+                <img src="./gambar/image02.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title text-center">Restorant</h4>
+                  <ul>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                </ul>
+                  <p class="card-text"></p>Grand Puncak Sari 2 adalah restoran yang berlokasi di Penelokan, Kintamani. Grand Puncak Sari 2 mulai dibuka tgl 30 Mei 2012 dengan menawarkan buffet, a’lacarte, dan set menu. Grand Puncak Sari 2 cocok untuk group incentive atau conference yang ingin menikmati pelayanan private untuk lunch. Kami adalah satu satunya Restaurant halal food bersertifikat MUI-Bali (MUI No. 081600020000408), di kawasan Penelokan, Kintamani.
+                  <p>start from 400.000 - 70.000</p>
+                </div>
+                <div class="love">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+        </div>
+
+        
+        <div class="col-4">
+            <div class="card style="width: 18rem;">
+                <img src="./gambar/image03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title text-center">Pura</h4>
+                  <ul>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star" style="color: gold;"></i></li>
+                    <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+                </ul>
+                  <p class="card-text">Pura Ulun Danu Batur (juga dikenal sebagai "Pura Batur" atau "Pura Ulun Danu") adalah Pura yang terletak di pulau Bali, Indonesia . Sebagai salah satu Pura Kahyangan Jagat, Pura Ulun Danu Batur adalah salah satu dari pura terpenting di Bali yang bertindak sebagai pemelihara harmoni dan stabilitas seluruh pulau. Pura Ulun Danu Batur mewakili arah Utara dan didedikasikan untuk dewa Wisnu dan dewi lokal Dewi Danu, dewi Danau Batur, danau terbesar di Bali. Setelah hancurnya kompleks pura yang asli, pura tersebut dipindahkan dan dibangun kembali pada tahun 1926.</p>
+                  <p>Rp.10.000</p>
+                </div>
+                <div class="love">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+        </div>
+        
+        <div class="col-4">
+          <div class="card style="width: 18rem;">
+              <img src="./gambar/wawasan02.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Hotel</h4>
+                <ul>
+                  <li><i class="fas fa-star" style="color: gold;"></i></li>
+                  <li><i class="fas fa-star" style="color: gold;"></i></li>
+                  <li><i class="fas fa-star" style="color: gold;"></i></li>
+                  <li><i class="fas fa-star" style="color: gold;"></i></li>
+                  <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+              </ul>
+                <p class="card-text">Hotel yang berada di Desa Kedisan Kintamani Bangli ini menyediakan 28 kamar dengan harga terjangkau dan dilengkapi fasilitas dapur, mini bar, dan peralatan mandi. Sedangkan fasilitas penunjang yang bisa kamu nikmati adalah resto yang beroperasi dari pukul 6 pagi hingga 7 malam, rental sepeda, massage, dan lain-lain.
+
+                  Gunung Batur bisa kamu tempuh dari Surya Hotel & Restaurant dengan 30 menit berkendara, sementara Desa Tradisional Trunyan bisa kamu tempuh dengan dua jam berkendara. </p>
+                <p>Rp.100.000 - 1.000.000</p>
+              </div>
+              <div class="love">
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card style="width: 18rem;">
+            <img src="./gambar/wawasan03.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Perkebunan Jeruk</h4>
+              <ul>
+                <li><i class="fas fa-star" style="color: gold;"></i></li>
+                <li><i class="fas fa-star" style="color: gold;"></i></li>
+                <li><i class="fas fa-star" style="color: gold;"></i></li>
+                <li><i class="fas fa-star" style="color: gold;"></i></li>
+                <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+            </ul>
+              <p class="card-text">Jenis jeruk siam salah satu komoditi unggulan di Kintamani Bangli, sehingga tidak mengherankan tanaman atau pohon jeruk lebih mendominasi perkebunan atau tegalan penduduk setempat. Kintamani adalah wilayah Kecamatan yang terletak di Kabupaten Bangli, kecamatan Kintamani terbagi menjadi 48 wilayah desa, beberapa diantaranya adalah desa Batur, desa Songan A dan B, desa Abang songan, desa Pinggan, desa Trunyan, desa Suter, desa Sukawana, desa Kedisan, desa Batukaang, desa Belancan, desa Belantih, desa Kintamani, desa Serai, desa Manikliyu, desa Langgahan, desa Bayung Gede, desa Bayung Cerik, desa Bunutin dan banyak lagi lainnya</p>
+              <p>Rp.5000 - 20.000</p>
+            </div>
+            <div class="love">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card style="width: 18rem;">
+          <img src="./gambar/wawasan04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-center">Tempat Mancing</h4>
+            <ul>
+              <li><i class="fas fa-star" style="color: gold;"></i></li>
+              <li><i class="fas fa-star" style="color: gold;"></i></li>
+              <li><i class="fas fa-star" style="color: gold;"></i></li>
+              <li><i class="fas fa-star" style="color: gold;"></i></li>
+              <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+          </ul>
+            <p class="card-text">pulau di gugusan sunda kecil ini faktanya menyimpan potensi mancing tak kalah hebat. Perairan yang mengapit di utara dan selatan ikut pula mendorong kian berkembangnya kegiatan mancing di sana. Pegiatnya kian aktif, menjelajah setiap spotspot potensial yang ada. Wadah komunikasi berbentuk komunitas dan grup juga didirikan para pemancing, salah satunya Mancing Mania Bali Club (MMBC).
+
+              Peran komunitas, dengan aktifitas para anggotanya merupakan unsur yang paling masuk akal dalam membantu mempromosikan wisata mancing di Bali, paling tidak menjadi satu kesatuan dari wisata pantainya. Bagaimana MMBC sebagai wadah pemancing</p>
+            <p>Rp.10.000 - 15.000</p>
+          </div>
+          <div class="love">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+  </div>
+
+
+
+        <div class="d-grid gap-2 col-3 mx-auto">
+          <button id="go" class="btn btn-primary mt-5 mb-5" type="button">Next</button>
+        </div>
+
+        </section>
+    </div>
+</div>
+
+
+<!-- akhir sarana komodasi -->
+
+
+    <!-- awal kunjunngan wisatwan -->
+    <section class="kunjungan bg-primary mt-3" id="wawasan">
+        <div class="container">
+            <div class="judul-kunjungan text-center mt-5 mb-3">
+                <h2>Kunjungan wisatawan di objec wisata kintamani </h2>
+            </div>
+        
+            <div class="progress">
+                <label class="ps-3 pe-3">Amerika</label>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+              </div>
+              <div class="progress">
+                <label class="ps-3 pe-3">Australia</label>
+                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+              <div class="progress">
+                <label class="ps-3 pe-3">China</label>
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+              <div class="progress">
+                <label class="ps-3 pe-3">Eropa</label>
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+              </div>
+        </div>
+
+    <!-- wawasan -->
+    <section class="section-wawasan" id="wawasan">
+      <div class="container">
+      <div class="judul text-center mb-4 mt-5">
+          <h2>Wawasan</h2>
+      </div>
+
+      <div class="row wawasan">
+          <div class="col-6 wawasan-kiri">
+            <div class="tittle">
+              <h2>air panas toya bungkah</h2>
+            </div>
+              <p>Toya Bungkah adalah nama pemandian air panas Kintamani dan juga terkenal dengan nama Batur Natural Hot Spring Kintamani. Arti dari nama Toya Bungkah berasal dari dua suku kata, Toya artinya air dan Bungkah artinya bongkahan batu. Karena sumber air panas berasal dari akuifer di kedalaman 635 meter dari permukaan tanah yang memiliki suhu air sekitar 50 derajat celcius.Air panas yang berasal dari pegunungan langsung dari sumber mata air panas dan tanpa adanya pengolahan, jadi sangat alami. Air panas juga mengandung mineral yang sangat bagus untuk kesehatan tubuh. Seperti mempercepat hilangnya memar, pemulihan rematik, untuk relaksasi dan peremajaan kulit.</p>
+          </div>
+          <div class="col-6 wawasan-kanan">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./gambar/poto01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./gambar/poto02.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./gambar/poto03.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+      </div>
+
+      <hr>
+      <hr>
+
+      <div class="row bawah">
+        <div class="col-6 wawasan-kiri-bawah">
+
+          <div class="gambar2">
+            <img src="./gambar/kreasi01.jpg">
+            <p class="text-center mt-1" style="font-size: 0.8em;">camping di gunung batur</p>
+        </div>
+
+        
+        </div>
+
+          <div class="col-6 wawasan-kanan-bawah">
+            <div class="tittle">
+              <h2>Tempat Rekreasi camping di gunung batur</h2>
+            </div>
+              <p>Camping (kemping) di dataran tinggi gunung Batur menjadi salah satu kegiatan wisata populer di Bali, apalagi mereka suka wisata petualangan di alam bebas menembus belantara dan menapaki jalan setapak menuju puncak tertinggi, maka kegiatan camping ini pasti diminati, karena akan banyak pengalaman-pengalaman menarik yang bisa anda dapatkan. Kemah atau camping dengan keluarga kecil anda dan yang seru bersama rekan atau rombongan, akan memberikan keceriaan yang berbeda saat liburan di Bali.</p>
+             
+          </div>
+          <hr>
+
+          <nav aria-label="...">
+              <ul class="pagination" style="display: flex; justify-content: center;">
+                <li class="page-item disabled">
+                  <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+      </div>
+
+  </div>
+  </section>
+</section>
+<!-- akhir kunjungan wisatawan -->
+
+    <!-- akhir wawasan -->
+
+
+    <!-- location dan kontak -->
+    <section class="contact">
+        <div class="container">
+          <div class="judul mt-5 mb-3 text-center">
+            <h2>Contact And Location</h2>
+          </div>
+          <div class="row">
+            <div class="col-6 contact-kiri">
+              <h4 class="text-center"> CONTACT US</h4>
+              <p>
+                Jl. gn batur , kec kintamani , kab bangli<br>
+
+                Phone 1: +62813 234 674<br>
+                Fax: +6261 245 345<br>
+                +62 812-4567-2788<br>
+                Email:  kapaktujeng@gmail.com
+              </p>
+            </div>
+
+            <div class="col-6 contact-kanan">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15794.512053836568!2d115.36873961995306!3d-8.240108418859668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1f403c8e8ee3f%3A0xd38045afa18670b4!2sMt%20Batur!5e0!3m2!1sen!2sid!4v1642847639155!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- akhir lokasi dan kontak -->
+
+
+    <!-- hubungi kami -->
+
+    <section class="hubungi mt-5 bg-primary mb-5" id="hubungi">
+        <div class="container">
+            <div class="judul-bungi text-center mt-5 mb-4">
+                <h2>Hubungi Kami</h2>
+            </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 d-block text-center">
+                  <button type="submit" class="btn btn-success mb-4">Send It</button>
+                </div>
+              </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="bawah">
+      <div class="row">
+        <div class="col-4 copi">
+          @Copyright 2021 I Wayan Dedy Witama Putra_20101165
+        </div>
+
+        <div class="col-4 tengah">
+           <a href="#beranda"><p>Beranda</p></a>
+           <a href="#objek"> <p>Object Wisata</p></a>
+            <a href="#sarana"> <p>Sarana & Akomodasi</p></a>
+            <a href="#wawasan"> <p>Wawasan</p></a>
+        </div>
+
+        <div class="col-4 kanan">
+          <h2>objek wisata kintamani</h2>
+          <p>tugas adalah kewajiban mahasiswa </p>
+        </div>
+      </div>
+    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0275d8" fill-opacity="1" d="M0,96L40,128C80,160,160,224,240,229.3C320,235,400,181,480,181.3C560,181,640,235,720,218.7C800,203,880,117,960,101.3C1040,85,1120,139,1200,170.7C1280,203,1360,213,1400,218.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </footer>
+
+
+    <!-- akhir hubungi kami -->
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script src="./javascript/main.js"></script>
+
+</script>
+
+</body>
+</html>
